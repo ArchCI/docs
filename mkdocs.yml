@@ -1,5 +1,5 @@
 site_name: ArchCI
-site_url: /
+#site_url: /
 use_absolute_urls: true
 dev_addr: '0.0.0.0:8000'
 

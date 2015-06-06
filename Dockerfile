@@ -1,4 +1,4 @@
-FROM ubuntu:14.10
+FROM ubuntu:14.04
 MAINTAINER tobe <tobeg3oogle@gmail.com>
 
 RUN apt-get -y update
