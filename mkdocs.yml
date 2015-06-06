@@ -21,3 +21,8 @@ pages:
 # User Guide
 - ['user_guide/installation.md', 'User Guide', 'Installation']
 
+# Worker
+- ['worker/usage.md', 'Worker', 'Usage']
+
+# Client
+- ['client/usage.md', 'Client', 'Usage']
