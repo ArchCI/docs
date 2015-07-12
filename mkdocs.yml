@@ -7,8 +7,8 @@ repo_url: https://github.com/ArchCI/archci
 # site_description: ArchCI
 copyright: Copyright &copy; 2015, <a href="https://github.com/ArchCI/archci">ArchCI</a>.
 
-docs_dir: en
-# docs_dir: zh
+# docs_dir: en
+docs_dir: zh
 
 #include_search: true
 #theme: readthedocs
@@ -17,6 +17,13 @@ pages:
 
 # Home
 - ['index.md', 'Home']
+
+# Development
+
+- ['development/architecture.md', 'Development', 'Architecture']
+- ['development/start_archci.md', 'Development', 'Start archci']
+- ['development/start_worker.md', 'Development', 'Start worker']
+
 
 # User Guide
 - ['user_guide/installation.md', 'User Guide', 'Installation']
