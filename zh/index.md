@@ -1,23 +1,24 @@
 # Welcome to ArchCI
 
-## Introduction
+## 简介
 
-[ArchCI](https://github.com/ArchCI/archci) is the continues integration service integrated with open source projects.
+**ArchCI**是基于Docker的分布式可拓展持续集成服务。
 
-It's new and adopt lightweight container to run task. Thanks to docker ecosystem, we can use docker for resource isolation and kuberntes for scheduling tasks.
+* 基于轻量化Docker容器技术
+* 支持.archci.yml集成测试文件
+* 提供RESTful API与客户端工具
+* Golang和Docker实现，100%开源
 
-## Worker
+## 后端
 
-Worker: [simple-worker](https://github.com/ArchCI/simple-worker), [kubernetes-worker](https://github.com/ArchCI/kubernetes-worker)
+* [simple-worker](https://github.com/ArchCI/simple-worker)
+* [kubernetes-worker](https://github.com/ArchCI/kubernetes-worker)
 
-## Client
+## 客户端
 
-Client: [aci](https://github.com/ArchCI/aci)
+* [aci](https://github.com/ArchCI/aci)
 
-## Document
+## 文档
 
-Document: [docs](https://github.com/ArchCI/docs)
+* [docs](https://github.com/ArchCI/docs)
 
-## Docker
-
-Docker: [docker-distribution](https://github.com/ArchCI)

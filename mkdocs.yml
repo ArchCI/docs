@@ -20,16 +20,14 @@ pages:
 
 # Development
 
-- ['development/architecture.md', 'Development', 'Architecture']
-- ['development/start_archci.md', 'Development', 'Start archci']
-- ['development/start_worker.md', 'Development', 'Start worker']
-
+- ['development/start_archci.md', '开发指南', '启动archci']
+- ['development/start_worker.md', '开发指南', '启动worker']
 
 # User Guide
-- ['user_guide/installation.md', 'User Guide', 'Installation']
+- ['user_guide/installation.md', '用户指南', '安装指南']
 
 # Worker
-- ['worker/usage.md', 'Worker', 'Usage']
+- ['worker/usage.md', '后端', '使用方法']
 
 # Client
-- ['client/usage.md', 'Client', 'Usage']
+- ['client/usage.md', '客户端', '使用方法']
