@@ -26,4 +26,4 @@ go build
 * nodejs
 * npm
 
-如果出现错误`This failure might be due to the use of legacy binary "node"`，请重新安装NodeJS。
+如果出现错误`This failure might be due to the use of legacy binary "node"`，请安装`nodejs-legacy`。

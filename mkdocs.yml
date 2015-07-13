@@ -20,6 +20,7 @@ pages:
 
 # Development
 
+- ['development/introduction.md', '开发指南', '项目简介']
 - ['development/start_archci.md', '开发指南', '启动archci']
 - ['development/start_worker.md', '开发指南', '启动worker']
 
