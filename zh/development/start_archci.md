@@ -1,13 +1,15 @@
-# 启动archci
+### 启动archci
 
-## 简介
+---
+
+### 简介
 
 archci是ArchCI项目的Web服务器和UI，他负责接受客户端的请求、收集worker的测试结果、并且展示到Web界面中。
 
 目前archci基于开源的React框架开发，前端使用Bootstrap、npm等工具管理。
 
 
-## 搭建开发环境
+### 搭建开发环境
 
 ```
 git clone https://github.com/ArchCI/archci.git
@@ -20,7 +22,7 @@ go build
 ./archci
 ```
 
-## 环境依赖
+### 环境依赖
 
 * golang
 * nodejs

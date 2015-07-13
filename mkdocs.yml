@@ -16,7 +16,7 @@ docs_dir: zh
 pages:
 
 # Home
-- ['index.md', 'Home']
+- ['index.md', '主页']
 
 # Development
 
