@@ -2,19 +2,28 @@
 
 ---
 
-### 持续集成
+### 背景介绍
 
-ArchCI是开源的CI系统，他为公司内部或开源项目提供持续集成服务，项目只需添加.archci.yml文件，有新代码提交时会自动触发测试，由worker执行测试并将结果返回给archci前端展示。
+持续集成，是IT企业为保障项目质量所实施的项目管理流程。任何项目一旦有代码的提交，都必须经过自动化的单元测试与集成测试，保证项目稳定与可靠，目前流行的持续集成系统包括Jenkins。
 
-* 与Jenkins类似，都可以提供公司内部以及开源项目的持续集成服务，但ArchCI使用了更轻量化的Docker容器。
-* 与TravisCI类似，都只需在你的项目添加Yaml文件即可执行测试，但ArchCI使用Golang实现更易于部署。
-* 与Drone类似，都是基于Docker、Golang实现并且提供API和客户端工具，但ArchCI是100%开源有更多特性。
+ArchCI是开源的持续集成框架，它基于轻量级的Docker容器，并且代码是Golang实现，能轻易部署到Linux、Mac OS、Windows等操作系统上。作为新型持续集成系统，ArchCI架构上支持水平拓展，并且已经集成Github、Gitlab的API，在不愿意折腾Jenkins的情况下非常适合中小型团队的项目持续集成。
 
-### 组件介绍
+### 部署服务
 
-archci是整个项目API服务器和前端展示页面，负责接受客户端的请求，并且收集worker的测试报告，最后展示给用户。
+ArchCI提供了Docker镜像，你可以通过以下命令启动服务。
 
-worker是真正负责执行测试的组件，他会调用底层的docker容器执行测试脚本，最后将结果返回给archci服务器，如果测试项目过多可以通过多运行几个worker来分摊压力。
+```
+docker run mysql
+docker run redis
+docker run archci
+docker run simple-worker
+```
 
-目前ArchCI服务需要archci和一个或以上worker即可，所有组件都是通过go实现的，可以直接下载二进制文件在本地运行。
+你也可以下载[archci](https://github.com/ArchCI/archci)与[simple-worker](https://github.com/ArchCI/simple-worker)的源码进行编译，或者下载我们编译好的二进制文件直接运行。
+
+在本地访问Web服务器<http://127.0.0.1:10010>，通过界面添加持续集成的项目，当项目有所变更时就会触发ArchCI进行持续测试。
+
+
+
+
 
