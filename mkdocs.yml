@@ -21,14 +21,11 @@ pages:
 # Development
 
 - ['development/introduction.md', '开发指南', '项目简介']
-- ['development/start_archci.md', '开发指南', '启动archci']
-- ['development/start_worker.md', '开发指南', '启动worker']
+- ['development/architecture.md', '开发指南', '系统结构']
+- ['development/archci.md', '开发指南', 'archci详解']
+- ['development/worker.md', '开发指南', 'worker详解']
 
 # User Guide
 - ['user_guide/installation.md', '用户指南', '安装指南']
-
-# Worker
-- ['worker/usage.md', '后端', '使用方法']
-
-# Client
-- ['client/usage.md', '客户端', '使用方法']
+- ['user_guide/worker_usage.md', '用户指南', 'worker用法']
+- ['user_guide/aci_usage.md', '用户指南', 'aci用法']
