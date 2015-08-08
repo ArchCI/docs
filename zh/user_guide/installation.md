@@ -2,20 +2,13 @@
 
 ---
 
-直接下载二进制文件。
+通过docker容器运行。
 
 ```
-go get github.com/ArchCI/archci
-go get github.com/ArchCI/simple-worker
-go get github.com/ArchCI/kubernetes-worker
-go get github.com/ArchCI/aci
-```
-
-或者从源码安装。
-
-```
-go get
-go build
+docker run -d -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 mysql:5.7
+docker run -d -p 6379:6379 redis
+docker run -d --net=host archci/archci
+docker run -d --net=host --privileged archci/simple-worker
 ```
 
 

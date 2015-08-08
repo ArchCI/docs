@@ -26,3 +26,5 @@ GLOBAL OPTIONS:
    --help, -h           show help
    --version, -v        print the version
 ```
+
+注意，普通用户建议直接操作archci的Web界面，命令行工具并未提供完整的系统管理功能。

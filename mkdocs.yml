@@ -16,7 +16,7 @@ docs_dir: zh
 pages:
 
 # Home
-- ['index.md', '主页']
+- ['index.md', '首页']
 
 # Development
 
@@ -27,5 +27,10 @@ pages:
 
 # User Guide
 - ['user_guide/installation.md', '用户指南', '安装指南']
-- ['user_guide/worker_usage.md', '用户指南', 'worker用法']
 - ['user_guide/aci_usage.md', '用户指南', 'aci用法']
+
+# Release
+- ['release/0.1.md', '发布版本', '0.1']
+- ['release/0.2.md', '发布版本', '0.2']
+- ['release/0.3.md', '发布版本', '0.3']
+- ['release/0.4.md', '发布版本', '0.4']
