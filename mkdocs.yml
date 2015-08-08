@@ -28,9 +28,3 @@ pages:
 # User Guide
 - ['user_guide/installation.md', '用户指南', '安装指南']
 - ['user_guide/aci_usage.md', '用户指南', 'aci用法']
-
-# Release
-- ['release/0.1.md', '发布版本', '0.1']
-- ['release/0.2.md', '发布版本', '0.2']
-- ['release/0.3.md', '发布版本', '0.3']
-- ['release/0.4.md', '发布版本', '0.4']
