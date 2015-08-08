@@ -1,6 +1,8 @@
-# Installation
+### 安装指南
 
-## Download binary
+---
+
+直接下载二进制文件。
 
 ```
 go get github.com/ArchCI/archci
@@ -9,15 +11,11 @@ go get github.com/ArchCI/kubernetes-worker
 go get github.com/ArchCI/aci
 ```
 
-## Build from source
+或者从源码安装。
 
 ```
 go get
 go build
 ```
-
-## Notice
-
-Ubuntu, CentOS, Debian, RHEL, MacOS, Windows and FreeBSD are well supported.
 
 

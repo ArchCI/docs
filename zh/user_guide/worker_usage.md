@@ -1,6 +1,8 @@
-# Usage
+### worker用法
 
-## Run simple-worker locally
+---
+
+本地运行simple-worker。
 
 ```
 root@archci:~/go/src/github.com/ArchCI/simple-worker# go run worker.go
@@ -18,7 +20,7 @@ Sleep 60 seconds for next task
 ^Cexit status 2
 ```
 
-Then you can checkout the test result and log.
+然后检查测试结果和日志。
 
 ```
 root@archci:~/go/src/github.com/ArchCI/simple-worker# cat exit_code.log

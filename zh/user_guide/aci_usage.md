@@ -1,8 +1,8 @@
-# Usage
+### aci用法
 
-## Aci
+---
 
-Build and run `aci` really easy. Please make sure `golang` is installed.
+编译运行`aci`非常简单，使用前确保`golang`已经安装好。
 
 ```
 ➜  aci git:(master) go build

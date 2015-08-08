@@ -13,17 +13,14 @@ ArchCI是开源的持续集成框架，它基于轻量级的Docker容器，并�
 ArchCI提供了Docker镜像，你可以通过以下命令启动服务。
 
 ```
-docker run mysql
-docker run redis
-docker run archci
-docker run simple-worker
+docker run -d -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 mysql:5.7
+docker run -d -p 6379:6379 redis
+docker run -d --net=host archci/archci
+docker run -d --net=host --privileged archci/simple-worker
 ```
 
 你也可以下载[archci](https://github.com/ArchCI/archci)与[simple-worker](https://github.com/ArchCI/simple-worker)的源码进行编译，或者下载我们编译好的二进制文件直接运行。
 
 在本地访问Web服务器<http://127.0.0.1:10010>，通过界面添加持续集成的项目，当项目有所变更时就会触发ArchCI进行持续测试。
 
-
-
-
-
+![](./archci_add_project.png)
